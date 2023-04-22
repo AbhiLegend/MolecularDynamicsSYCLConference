@@ -10,6 +10,9 @@
 
 <br>To perform the calculations in parallel, the program uses the SYCL programming model. It creates a queue object that represents the device on which the calculations will be performed. It then creates buffers that hold the particle positions and velocities, and submits two parallel_for kernels that perform the force calculation and position/velocity updates, respectively. The wait() function is called to ensure that the kernels have completed before the next step of the simulation is started. Finally, the updated particle positions are read back from the buffers and printed out. </br>
 
+## Ultimate goal of the program
+
+<br>Overall, this program simulates the motion of a set of particles in a box using the Lennard-Jones potential to calculate the interactions between particles. The simulation is carried out using SYCL, a programming model for heterogeneous computing systems that allows the use of accelerators such as GPUs or FPGAs to speed up the calculations.</br>
 
 
 
