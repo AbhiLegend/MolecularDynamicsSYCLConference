@@ -18,14 +18,14 @@
 ## THE NEXT ANALYSIS FOR SYCL CODE WITHIN VISUAL STUDIO 
 
 
-#The Sample output in console
+# The Sample output in console
 Here is how the sample output for the program looks like in console.
 
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%20(56).png) <br />
 
-#We will now look at offloading our  program results with Visual Studio Community edition
+# We will now look at offloading our  program results with Visual Studio Community edition
 
-#We can take a look at entire snapshot of the application
+# We can take a look at entire snapshot of the application
 These are the type of analysis we do with the code
 #Some good analysis that can be done with the above code are:-
 For Algorithms finding hotspots and anamoly detection
@@ -41,11 +41,11 @@ Accelerators GPU offload and GPU Compute/Media Hotspots
 
 
 
-#With the VTune analysis we look at memory error analysis
+# With the VTune analysis we look at memory error analysis
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%20(65).png) <br />
 
 
-#We look at CPU Bandwidth utilization for the program as shown below.
+# We look at CPU Bandwidth utilization for the program as shown below.
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%20(67).png) <br />
 
 
@@ -65,7 +65,7 @@ With the Intel Advisor we show which part of code can be improved with changes
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%20(80).png) <br />
 
 
-#The entire SYCL code run can be analysed as shown below.
+# The entire SYCL code run can be analysed as shown below.
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%20(85).png) <br />
 
 # How to get Started with Intel Advisor for the above SYCL code.
