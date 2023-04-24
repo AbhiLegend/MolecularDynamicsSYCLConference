@@ -68,21 +68,21 @@ With the Intel Advisor we show which part of code can be improved with changes
 #The entire SYCL code run can be analysed as shown below.
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%20(85).png) <br />
 
-#How to get Started with Intel Advisor for the above SYCL code.
+# How to get Started with Intel Advisor for the above SYCL code.
 Make sure you have installed Intel oneAPI Base toolkit.
 Start the oneAPI Command prompt,we will see that the environment is intialized.
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%202023-04-19%20013635.png) <br />
-https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%202023-04-19%20013635.png
 
-#To start the advisor gui we key in the command
+
+# To start the advisor gui we key in the command
 *advisor-gui* in the command prompt window with oneAPI environment enabled.
 
-#Comparing Hotspots for the code
+# Comparing Hotspots for the code
 We run the code with two alterations both codes have been provided.one with 1000 particles and other with 1500 particles and compare the results with advisor.
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%202023-04-21%20032405hspot.png) <br />
-https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%202023-04-21%20032405hspot.png
 
-#The summary shows how the code has behaved
+
+# The summary shows how the code has behaved
 ![alt text](https://github.com/AbhiLegend/MolecularDynamicsSYCLConference/blob/main/Screenshot%202023-04-21%20032405hspot.png
 ) <br />
 
